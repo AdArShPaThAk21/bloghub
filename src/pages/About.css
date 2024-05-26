@@ -1,0 +1,200 @@
+#about {
+    background-color: #212ea0;
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #about h3 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  .about .box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 50px;
+    flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 1336px) and (min-width: 600px) {
+    .about .box {
+      gap: 1rem;
+      padding: 0 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #about {
+      padding: 50px 0;
+    }
+  
+    #about h3 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+  
+    .about .box {
+      gap: 1rem;
+      padding: 0 10px;
+    }
+  
+    .card {
+      width: 90%;
+      margin: 10px 0;
+    }
+  
+    .card img {
+      height: 150px;
+      width: 150px;
+    }
+  
+    h5 {
+      font-size: 20px;
+    }
+  
+    .pra p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    .pra button {
+      font-size: 14px;
+      padding: 0.4rem 0.8rem;
+    }
+  }
+  
+  .card {
+    cursor: pointer;
+    text-align: center;
+    animation: slideIn 0.5s ease-in-out;
+    transform: translateY(-2.2rem);
+    padding: 20px;
+    width: 300px;
+    transition: all 0.25s;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba(23, 25, 50, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(245, 245, 245, 0.145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:hover {
+    box-shadow: 0px 5px 25px 0 rgba(0, 0, 0, 0.642);
+    margin-top: -2%;
+    margin-bottom: 2%;
+  }
+  
+  .card img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .card img:hover {
+    outline: 0px solid transparent;
+    padding: 3px 3px;
+    border: 2px solid #FF2E63;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  h5 {
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  
+  .pra {
+    text-align: center;
+  }
+  
+  .pra p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  
+  .pra button {
+    padding: 0.5rem 1rem;
+    border: 2px solid #f9004d;
+    background-color: #fff;
+    border-radius: 0.8rem;
+    color: #f9004d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .pra button:hover {
+    background-color: #f9004d;
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .he {
+    margin-top: -30%;
+  }
+  
+  #blog-process {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #blog-process h3 {
+    color: #08D9D6;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  
+  .process-step {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .process-step h4 {
+    color: #000000;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .process-step p {
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #blog-process h3 {
+      font-size: 2.5rem;
+    }
+  
+    .process-step h4 {
+      font-size: 1.25rem;
+    }
+  
+    .process-step p {
+      font-size: 0.9rem;
+    }
+  }
+  
